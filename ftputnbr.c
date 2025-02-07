@@ -17,7 +17,7 @@ void put_positive(int p)
 
 	else if (p >= 10) // no lo se rick
 	{
-		ft_putchar((p = p / 10) + '0'); // el tema con esto es que no imprime numero mas de dos digitos
+		ft_putchar((p = p / 10) + '0'); // el tema con esto es que no imprime numero mas de dos digitos  
 		ft_putchar((p = p % 10) + '0'); // al ser mas de dos digitos imprime por ejemplo 3235/10= 323 + '0' = que no tiene que ver con un numero en ASCII necesariameente
 	} 
 
@@ -57,7 +57,7 @@ void ft_putnbr(int nbr)
 
 int main (void)
 {
-	ft_putnbr(8902);
+	ft_putnbr(65382);
 
 	return 0;
 } 
